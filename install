@@ -9,7 +9,7 @@ tar xjf wkhtmltoimage-0.10.0_rc2-static-i386.tar.bz2
 tar xjf wkhtmltopdf-0.10.0_rc2-static-i386.tar.bz2
 
 mv wkhtmltoimage-i386 /usr/local/bin/wkhtmltoimage
-chmod 755 /usr/local/bin/wkthmltoimage
+chmod 755 /usr/local/bin/wkhtmltoimage
 
 mv wkhtmltopdf-i386 /usr/local/bin/wkhtmltopdf
 chmod 755 /usr/local/bin/wkhtmltopdf
