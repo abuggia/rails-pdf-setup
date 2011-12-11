@@ -8,14 +8,13 @@ fi
 tar xjf wkhtmltoimage-0.10.0_rc2-static-i386.tar.bz2
 tar xjf wkhtmltopdf-0.10.0_rc2-static-i386.tar.bz2
 
-ls
+mv wkhtmltoimage-i386 /usr/local/bin/wkhtmltoimage
+mv wkhtmltopdf-i386 /usr/local/bin/wkhtmltopdf
 
-rm wkhtmltoimage-i386
-rm wkhtmltopdf-i386
+chmod 755 /usr/local/bin/wkthml*
 
-ls
+echo "Done install"
 
-
-
+ls -l /usr/local/bin/wkhtml
 
 
