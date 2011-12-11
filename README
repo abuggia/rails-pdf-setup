@@ -1,0 +1,5 @@
+
+    git clone git@github.com:abuggia/rails-pdf-setup.git
+    cd rails-pdf-setup
+    sudo ./install
+    
