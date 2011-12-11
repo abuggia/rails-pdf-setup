@@ -1,0 +1,21 @@
+
+
+if [ "$(id -u)" != "0" ]; then
+  echo "Please run me as root"
+  exit 1
+fi
+
+tar xjf wkhtmltoimage-0.10.0_rc2-static-i386.tar.bz2
+tar xjf wkhtmltopdf-0.10.0_rc2-static-i386.tar.bz2
+
+ls
+
+rm wkhtmltoimage-i386
+rm wkhtmltopdf-i386
+
+ls
+
+
+
+
+
